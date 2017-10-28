@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clientdemo">
+    <output-path>$PROJECT_DIR$/classes/artifacts/clientdemo</output-path>
+    <root id="archive" name="clientdemo.war">
+      <element id="javaee-facet-resources" facet="ssoclient/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssoclient" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
